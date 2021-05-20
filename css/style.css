@@ -1,0 +1,194 @@
+/* DOCUMENT INFORMATIONS
+    - Document : Portfolio
+    - version : 2.0.0
+    - Author : Yoann
+*/
+
+/* COLORS
+    - Defaut body text  
+    - h1                
+    - h2                
+    - h3
+
+    - button
+    - button:hover
+
+    - border
+
+    - icon              #0c950c
+*/
+
+/* FONTS
+    - Default : Quicksand
+    - Subtitle 
+
+*/
+
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+    3. =APERCU CODE 
+    4. =TEXT
+    5. =PORTFOLIO
+
+*/
+
+
+/* GLOBAL
+==================================================*/
+
+html {
+    background-color:    #406a7a;
+}
+
+.text p {
+    color: #fff;
+    font-family: 'Permanent marker', 'arial', sans-serif;
+    font-size: 3em;
+}
+
+
+
+/* HEADER
+==================================================*/
+
+.navbar {
+    background-color:#406a7a;
+    border-bottom: 1px solid #fff;
+}
+
+.navbar a {
+    font-family: 'Quicksand', 'arial', sans-serif;
+}
+
+.navbar .navbar-brand {
+    font-size: 3em;
+    letter-spacing: -5px;
+}
+.navbar .navbar-brand span {
+    margin-left: -4px;
+}
+
+
+
+/* APERCU CODE HEADER
+==================================================*/
+
+.code-dark {
+    background-color: #406a7a;
+}
+
+.code-dark p {
+    font-family: 'Shadows into light', 'arial', sans-serif;
+    font-style: italic;
+    color:rgba(255, 255, 255, 0.384);
+    font-size: 1em;
+    margin-bottom: -5px;
+}
+
+.code-dark p span {
+    margin-left: 10px;
+}
+
+.code-dark-right {
+    text-align: right;
+}
+
+
+
+/* TEXT PORTFOLIO
+==================================================*/
+
+.text {
+    background-color: #406a7a;
+    padding: 60px 0;
+}
+
+
+/* APERCU CODE PORTFOLIO
+==================================================*/
+
+
+
+/* PORTFOLIO
+==================================================*/
+
+#portfolio {
+    background-color: #406a7a;
+    padding: 60px 0;
+
+}
+
+.galerie-portfolio {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.galerie-portfolio:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* APERCU CODE PORTFOLIO
+==================================================*/
+
+.code-light {
+    background-color: #fff;
+}
+
+.code-light p {
+    font-family: 'Shadows into light', 'arial', sans-serif;
+    font-style: italic;
+    color:#406a7a;
+    font-size: 1em;
+    margin-bottom: -5px;
+}
+
+.code-light p span {
+    margin-left: 10px;
+}
+
+.code-light-right {
+    text-align: right;
+}
+
+
+/* TEXT SKILLS
+==================================================*/
+
+#myskills {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#myskills p {
+    color: #406a7a;
+}
+
+
+
+/* SKILLS
+==================================================*/
+
+.skills-details {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.skills-details-galery {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #406a7a;
+
+}
