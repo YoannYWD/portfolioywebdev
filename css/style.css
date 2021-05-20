@@ -51,13 +51,14 @@ header {
 }
 
 .navbar {
-    background-color:#406a7a;
-    border-bottom: 1px solid #fff;
+    background-color:#fff;
+    border-bottom: 1px solid #406a7a;
 }
 
 .navbar a {
     font-family: 'Quicksand', 'arial', sans-serif;
     font-size: 1.5em;
+    color: #406a7a!important;
 }
 
 .navbar .navbar-brand {
@@ -248,12 +249,12 @@ header {
 ==================================================*/
 
 footer {
-    background-color: #406a7a;
-    border-top: 1px solid #fff;
+    background-color: #fff;
+
 }
 
 .text-footer p {
-    color: #fff;
+    color: #406a7a;
     font-family: 'Permanent marker', 'arial', sans-serif;
     font-size: 2em;
     text-align: center;
@@ -267,7 +268,7 @@ footer {
 .text-footer p span:after {
     display: block;
     height: 1px;
-    background-color: #fff;
+    background-color: #406a7a;
     width: 100px;
     content:" ";
     margin: 0 auto;
@@ -286,16 +287,18 @@ footer {
 }
 
 footer .fas {
-    color: #fff;
+    color: #406a7a;
+    transition: 1s;
 }
 footer .fab {
-    color: #fff;
+    color: #406a7a;
+    transition: 1s;
 }
 footer .fas:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 footer .fab:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 
