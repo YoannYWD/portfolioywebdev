@@ -212,6 +212,7 @@ header {
     border-radius: 50%;
     box-shadow: 0 0 10px #406a7a;
     transition: 1s;
+    margin-bottom: 10px;
 }
 
 .skills-details-galery:hover {
