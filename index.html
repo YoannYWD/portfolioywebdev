@@ -32,7 +32,7 @@
     <!---------------------------------  HEADER --------------------------------->
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="/">YW<span>D</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#monmenu" aria-controls="monmenu" aria-label="menu pour mobile">
@@ -44,9 +44,9 @@
             <a class="nav-item nav-link" href="#portfolio">Work</a>
             <a class="nav-item nav-link" href="#myskills">Skills</a>
             <a class="nav-item nav-link" href="#about">About</a>
-            <a class="nav-item nav-link" href="/"><i class="fas fa-at"></i></a>
-            <a class="nav-item nav-link" href="/"><i class="fab fa-github"></i></i></a>
-            <a class="nav-item nav-link" href="/"><i class="fab fa-linkedin"></i></i></a>
+            <a class="nav-item nav-link" href="mailto:yoann.guidec@gmail.com"><i class="fas fa-at"></i></a>
+            <a class="nav-item nav-link" href="https://github.com/YoannYWD" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="nav-item nav-link" href="https://www.linkedin.com/in/yoann-guidec-8b7b2976/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -107,13 +107,24 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-4">
-          <div class="galerie-portfolio" style="background-image: url(images/Komewaza.jpg)"></div>
+          <div class="galery-portfolio" style="background-image: url(images/Komewaza.jpg)">
+            <div class="galery-portfolio-details">
+              <h1>Flexbox</h1>
+            </div>
+          </div>
         </div>
         <div class="col-md-4">
-          <div class="galerie-portfolio" style="background-image: url(images/travelblog.jpg)"></div>
+          <div class="galery-portfolio" style="background-image: url(images/travelblog.jpg">            
+            <div class="galery-portfolio-details">
+              <h1>GRID CSS</h1>
+            </div>
+          </div>
         </div>
           <div class="col-md-4">
-            <div class="galerie-portfolio" style="background-image: url(images/thé.jpg)">
+            <div class="galery-portfolio" style="background-image: url(images/thé.jpg)">
+              <div class="galery-portfolio-details">
+                <h1>Bootstrap</h1>
+              </div>  
             </div>      
         </div>
       </div>
@@ -139,7 +150,7 @@
             <p>&lt;section id="myskills"&gt;</p>
           </div>
         </div>
-        <div class="row">
+
         <div class="col code-dark-right">
           <p>.skills-details-galery {</p>
           <p>display: block;</p>
@@ -165,7 +176,7 @@
     <!---------------------------------  SKILLS --------------------------------> 
 
   <section class="skills-details">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-2 offset-1">
           <div class="skills-details-galery" style="background-image:url(images/html.png)"></div>
@@ -206,10 +217,9 @@
             <p>&lt;section class="text" id="about"&gt;</p>
           </div>
         </div>
-        <div class="row">
         <div class="col code-dark-right">
-          <p>.text p {</p>
-          <p>font-size: 3em;</p>
+          <p>#about p {</p>
+          <p>font-size: 2em;</p>
           <p>}</p>
         </div>
       </div>
@@ -223,11 +233,69 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <p>Write something about me.</p>
+          <div class="my-picture">
+            <img src="images/yoann.JPG" alt="Photo">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>My name is Yoann and this is my little corner on the internet. I worked for 13 years in a bank branch so I know how to manage customer relations. Now I'm working hard to become an avid web developer !</p>
+          <p>I am also passionate about music, video games, diving and beekeeping.</p>
         </div>
       </div>
     </div>
   </section>
+
+
+      <!---------------------------  CODE TEXT FOOTER --------------------------->  
+
+  <section class="code-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <p>&lt;/section&gt;</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!---------------------------  FOOTER ---------------------------> 
+
+  <footer>
+    <section class="code-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <p>&lt;footer&gt;</p>
+          </div>
+        </div>
+        <div class="row"></div>
+          <div class="col code-dark-right">
+            <p>footer {</p>
+            <p>border-top: 1px solid #fff;</p>
+            <p>}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col text-footer">
+            <p>Thank you for scrolling so far!</p>
+            <p><span>Let's get in touch</span></p>
+          </div>
+        </div>
+        <div class="reseaux">
+            <a href="mailto:yoann.guidec@gmail.com"><i class="fas fa-at"></i></a>
+            <a href="https://github.com/YoannYWD" target="_blank"><i class="fab fa-github"></i></a>
+
+            <a href="https://www.linkedin.com/in/yoann-guidec-8b7b2976/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+  </footer>
 
 
 
