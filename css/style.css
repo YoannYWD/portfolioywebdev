@@ -61,6 +61,10 @@ header {
     color: #406a7a!important;
 }
 
+.navbar a:hover {
+    color: #63a5c2!important;
+}
+
 .navbar .navbar-brand {
     font-weight: 700;
     font-size: 4em;
