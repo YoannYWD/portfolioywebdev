@@ -1,6 +1,6 @@
 /* DOCUMENT INFORMATIONS
     - Document : Portfolio
-    - version : 2.0.7
+    - version : 2.0.8
     - Author : Yoann
 */
 
@@ -138,7 +138,6 @@ header {
     border-radius: 10px;
     border: 1px solid white;
     margin-bottom: 10px;
-    position: relative;
     filter: grayscale(1);
     transition: 1s;
 }
@@ -311,4 +310,9 @@ footer .fab:hover {
     transform: scale(1.2);
 }
 
-
+.copyright {
+    text-align: center;
+    font-family: 'Quicksand', 'arial', sans-serif;
+    color: #406a7a;
+    font-size: 0.8em;
+}
