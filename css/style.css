@@ -1,27 +1,34 @@
 /* DOCUMENT INFORMATIONS
     - Document : Portfolio
-    - version : 2.0.0
+    - version : 2.0.6
     - Author : Yoann
 */
 
 /* COLORS
     - #406a7a
     - #fff
+    - #63a5c2 :hover menu
 
 */
 
 /* FONTS
-    - Default : Quicksand
-    - Subtitle 
+    - Default : Permanent marker
+    - Menu : Quicksand
+    - Code : Shadows into light - italic -
 
 */
 
 /* CSS DIRECTORY
     1. =GLOBAL
     2. =HEADER
-    3. =APERCU CODE 
-    4. =TEXT
+    3. =APERCU CODE HEADER
+    4. =TEXT PORTFOLIO
     5. =PORTFOLIO
+    6. =APERCU CODE PORTFOLIO
+    7. =TEXT SKILLS
+    8. =SKILLS
+    9. =ABOUT
+    10.=FOOTER
 
 */
 
@@ -110,9 +117,6 @@ header {
     padding: 60px 0;
 }
 
-
-/* APERCU CODE PORTFOLIO
-==================================================*/
 
 
 
@@ -251,7 +255,7 @@ header {
 
 
 
-/* ABOUT
+/* FOOTER
 ==================================================*/
 
 footer {
