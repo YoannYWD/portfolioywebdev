@@ -1,6 +1,6 @@
 /* DOCUMENT INFORMATIONS
     - Document : Portfolio
-    - version : 2.0.8
+    - version : 2.1.0
     - Author : Yoann
 */
 
@@ -44,9 +44,30 @@
 
 h1 {
     font-family: 'Permanent marker', 'arial', sans-serif;
-
     color: #000000;
 }
+
+.text p span {
+    color: transparent;
+    font-family: 'Permanent marker', 'arial', sans-serif;
+    background-image: linear-gradient(to left,#FFFFFF,#2d4b07,#aa3e00, #ffe44a, #072835, #FFFFFF);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+}
+@keyframes animate {
+        0%{
+            background-position: 0 100%;
+        }
+        50%{
+            background-position: 100% 0;
+        }
+        100%{
+            background-position: 0 100%;
+    }
+}
+
 
 
 
@@ -94,10 +115,28 @@ header {
 .code-dark p {
     font-family: 'Shadows into light', 'arial', sans-serif;
     font-style: italic;
-    color:rgba(255, 255, 255, 0.384);
     font-size: 1em;
     margin-bottom: -5px;
+    color: transparent;
+    background-image: linear-gradient(to left,#FFFFFF, #FFFFFF,#406a7a, #406a7a);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
 }
+@keyframes animate {
+        0%{
+            background-position: 0 100%;
+        }
+        50%{
+            background-position: 100% 0;
+        }
+        100%{
+            background-position: 0 100%;
+    }
+}
+
+
 
 .code-dark p span {
     margin-left: 10px;
@@ -164,7 +203,7 @@ header {
 
 
 
-/* APERCU CODE PORTFOLIO
+/* APERCU CODE SKILLS
 ==================================================*/
 
 .code-light {
@@ -174,9 +213,25 @@ header {
 .code-light p {
     font-family: 'Shadows into light', 'arial', sans-serif;
     font-style: italic;
-    color:#406a7a;
     font-size: 1em;
     margin-bottom: -5px;
+    color: transparent;
+    background-image: linear-gradient(to left,#406a7a, #406a7a,#FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+}
+@keyframes animate {
+        0%{
+            background-position: 0 100%;
+        }
+        50%{
+            background-position: 100% 0;
+        }
+        100%{
+            background-position: 0 100%;
+    }
 }
 
 .code-light p span {
@@ -288,7 +343,6 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 2em;
-
 }
 
 .reseaux a {
@@ -315,4 +369,6 @@ footer .fab:hover {
     font-family: 'Quicksand', 'arial', sans-serif;
     color: #406a7a;
     font-size: 0.8em;
+    margin-bottom: 15px;
+
 }
